@@ -6,3 +6,4 @@ class Book:
         self.autor = input("Enter autor name:  ")
         self.year = int(input("Enter year of a book:  "))
 
+# створіть функію для виводу інформації
