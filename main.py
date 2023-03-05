@@ -1,3 +1,5 @@
+year = 2023
+
 class Book:
     def __init__(self):
         self.name = input("Enter book name:  ")
