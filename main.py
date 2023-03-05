@@ -6,3 +6,9 @@ class Book:
         self.autor = input("Enter autor name:  ")
         self.year = int(input("Enter year of a book:  "))
 
+    def books_info(self):
+        print(f'{self.name=}'
+        f'Autor = {self.autor}\n'
+        f'Year = {self.year}\n')
+
+
