@@ -7,8 +7,8 @@ class Book:
         self.year = int(input("Enter year of a book:  "))
 
     def books_info(self):
+        """Shows book information"""
         print(f'{self.name=}'
         f'Autor = {self.autor}\n'
         f'Year = {self.year}\n')
-
 
