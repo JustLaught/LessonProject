@@ -12,7 +12,10 @@ class Book:
         f'Autor = {self.autor}\n'
         f'Year = {self.year}\n')
 
-# Create calculation
+    def calculation(self):
+        print(f'This book {year - self.year} year')
 
 
-# Unite all create menu
+
+Book.books_info()
+Book.calculation()
