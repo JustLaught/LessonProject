@@ -16,6 +16,6 @@ class Book:
         print(f'This book {year - self.year} year')
 
 
-Book()
-Book.books_info()
-Book.calculation()
+res = Book()
+res.books_info()
+res.calculation()
