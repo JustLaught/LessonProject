@@ -1,4 +1,5 @@
-year = 2023
+from datetime import date
+year = date.today().year
 
 class Book:
     def __init__(self):
